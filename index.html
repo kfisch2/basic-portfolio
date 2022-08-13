@@ -1,103 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
 
-<body>
-    <header>
-        <nav>
+    <body>
+        <header>
+            <nav>
+                <div class="container text-center">
+                    <div class="row">
+                    <div class="col-sm">
+                        <a href="#about">About Me</a>
+                    </div>
+                    <div class="col-sm"">
+                        <a href="#projects">Projects</a>
+                    </div>
+                    <div class="col-sm"">
+                        <a href="#education">Education</a>
+                    </div>
+                    <div class="col-sm"">
+                        <a href="#contact">Contact Me</a>
+                    </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <h1>Kayla Fischer</h1>
+
+        <section id="about">
+            <h2><span>About Me</span></h2>
+            <img src="./assets/images/Portrait.jpg">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quae optio illum rerum
+                id quo tempore harum cumque libero. Possimus deleniti quia distinctio dolore dolorem, perspiciatis at
+                mollitia consectetur corporis!
+            </p>
+        </section>
+        <section id="work">
+            <h2 class="section-title">My projects</h2>
+
+            <div id="primary-project" >
+                <h3><a href="https://kfisch2.github.io/dose" target="_blank"><span>Dose</span></a></h3>
+            </div>
+
+            <div class="col container text-center other-projects">
+                <div class="row">
+                    <div class="col" >
+                        <h4><a href="http://kfisch2.github.io/rhythm-in-region" target="_blank"><span>Rhythm In Region</span></a></h4>
+                        <img src="./assets/images/RhythmInRegionScreenshot.png" class="image-responsive">
+                    </div>
+                    <div class="col">
+                        <h4><a href="http://kfisch2.github.io/techy-blog"target="_blank"><span>Techy Blog</span></a></h4>  
+                    </div>
+                <div>
+            </div>
+
+        </section>
+
+
+        <!--
+            <section id="experience">
+                <h2><span>Experience</span></h2>
+                <h3>UO Bootcamp</h3>
+            </section> 
+            -->
+
+        <section id="education">
+            <h2 class="school"><span>Education</span></h2>
             <ul>
                 <li>
-                    <a href="#about">About Me</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <!--<li>
-                    <a href="#experience">Experience</a>
-                </li> -->
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact Me</a>
+                    <h3>Bachelor's of Arts in Mathematics</h3>
+                    <h4>Linfield University</h4>
                 </li>
             </ul>
-        </nav>
-    </header>
-
-    <h1>Kayla Fischer</h1>
-
-    <section id="about">
-        <h2><span>About Me</span></h2>
-        <img src="./assets/images/Portrait.jpg">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quae optio illum rerum
-            id quo tempore harum cumque libero. Possimus deleniti quia distinctio dolore dolorem, perspiciatis at
-            mollitia consectetur corporis!
-        </p>
-    </section>
-    <section id="projects"><h2><span>Projects</span></h2>
-        <div class="mainProject">
-            <!--MAIN project-->
-            <div class="rhythmInregion">
-                <a href="https://bin-ostrowski.github.io/rhythm-in-region/" target="_blank">
-                    <img src="./assets/images/RhythmInRegionScreenshot.png">
-                </a>
-            </div>
-            <!--the others-->
-            <div class="otherProjects">
-                
-                <p class="run-buddy">
-                    <a href="https://kfisch2.github.io/run-buddy" target="_blank">
-                        <img src="./assets/images/hero-bg.jpg">
-                    </a>
-                </p>
-
-                <div class="horiseon">
-                    <a href="http://kfisch2.github.io/horiseon" target="_blank">
-                        <img src="./assets/images/digital-marketing-meeting.jpg">
-                    </a>
-                </div>
-            </div>
-        </div>
+        </section>
 
 
-    </section>
+        <section id="contact">
+            <h2><span>Contact Me</span></h2>
+            <nav>
+                <a href="https://github.com/kfisch2" target="_blank">Github</a>
+                <a href="">Email</a>
+                <a href="https://www.linkedin.com/in/kayla-fischer-679200109/" target="_blank">LinkedIn</a>
+            </nav>
+        </section>
 
-
-    <!--
-        <section id="experience">
-            <h2><span>Experience</span></h2>
-            <h3>UO Bootcamp</h3>
-        </section> 
-        -->
-
-    <section id="education">
-        <h2 class="school"><span>Education</span></h2>
-        <ul>
-            <li>
-                <h3>Bachelor's of Arts in Mathematics</h3>
-                <h4>Linfield University</h4>
-            </li>
-        </ul>
-    </section>
-
-
-    <section id="contact">
-        <h2><span>Contact Me</span></h2>
-        <ul>
-            <li><a href="https://github.com/kfisch2" target="_blank">Github</a></li>
-            <li><a href="">Email</a></li>
-            <li><a href="https://www.linkedin.com/in/kayla-fischer-679200109/" target="_blank">LinkedIn</a></li>
-        </ul>
-    </section>
-
-</body>
+    </body>
 
 </html>
