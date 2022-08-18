@@ -46,7 +46,7 @@ header img {
 }
 
 section {
-  margin: 45px 245px;
+  margin: 45px 245px 83px 245px;
 }
 
 h2 span {
@@ -77,14 +77,16 @@ body {
 
 .portrait {
   border-radius: 75%;
-  width: 10%;
+  width: 27%;
+  margin-bottom: 30px;
 }
 
 #primary-project {
   text-align: center;
+  margin-bottom: 20px;
 }
 #primary-project img {
-  width: 70%;
+  width: 100%;
 }
 .content {
   font-size: 20px;
@@ -100,7 +102,7 @@ body {
 }
 
 .other-projects img {
-  width: 50%;
+  width: 100%;
 }
 
 #projects a {
