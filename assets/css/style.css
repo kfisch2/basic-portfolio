@@ -1,23 +1,52 @@
-html {
-  margin: 0;
-  background-image: url("");
-}
-
 header {
   justify-content: space-between;
-  position: -webkit-sticky;
+  /* position: -webkit-sticky; */
+  background-color: rgb(185, 214, 182);
   position: sticky;
   top: 0;
-  margin: 0;
-  z-index: 999;
-  background-color: rgb(247, 244, 244);
+  padding: 35px;
+  background-image: url('https://vetsez.com/wp-content/uploads/2020/03/AdobeStock_291217289-copy.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 0%;
 }
 
-header nav ul li {
-  list-style: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 10px 15px;
+header h1{
+  margin-top: -15px;
+}
+
+header nav {
+  text-align: center;
+  margin: 0 15px;
+}
+
+header a {
+  color: black;
+  text-align: center;
+  padding: 8px 12px;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+header a:hover {
+  background-color: azure;
+  color: black; 
+  border-radius: 5px;
+  transition: 0.5s;
+  opacity: 1;
+  font-style: italic;
+}
+
+header img {
+  width: 10%;
+}
+
+section {
+  margin: 45px 245px;
 }
 
 h2 span {
@@ -30,10 +59,33 @@ h2 span {
   padding: 5px;
 }
 
-#about img {
-  width: 20%;
+body {
+  /* background-color: rgba(56, 153, 47, 0.473); */
+  background-image: url('https://vetsez.com/wp-content/uploads/2020/03/AdobeStock_291217289-copy.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;   
+  background-attachment: fixed;
 }
 
+.portrait-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.portrait {
+  border-radius: 75%;
+  width: 10%;
+}
+
+#primary-project {
+  text-align: center;
+}
+#primary-project img {
+  width: 70%;
+}
 .content {
   font-size: 20px;
 }
@@ -43,7 +95,12 @@ h2 span {
 }
 
 #other-projects {
-  position: relative;
+  /* position: relative; */
+  text-align: center;
+}
+
+.other-projects img {
+  width: 50%;
 }
 
 #projects a {
@@ -53,10 +110,6 @@ h2 span {
   position: relative;
 }
 
-img {
-  width: 25%;
-}
-
 #contact ul li {
   font-size: 18px;
   display: inline-block;
@@ -64,40 +117,54 @@ img {
   list-style: none;
 }
 
-@media screen and (max-width: 980px) {
+.LinkedIn-logo {
+  width: 5%;
+}
+
+.email-logo {
+  width: 3%
+};
+
+.github-logo {
+  width: 3%
+}
+
+/* media query for smaller desktop screens */
+
+/* @media screen and (max-width: 980px) {
   header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
   }
-
+  
   header h1 {
-    width: 100%;
-    text-align: center;
+      width: 100%;
+      text-align: center;
   }
 
-  header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
+  header nav {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
   }
 
-  header nav ul li a {
-    font-size: 20px;
-  }
-
-  .section-title {
-    width: 80%;
+  header nav a {
+      font-size: 20px;
   }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   section {
-    padding: 30px 15px;
+      padding: 30px 15px;
   }
-}
+  
+} */
+
+  
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-}
+  
+} 
