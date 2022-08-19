@@ -1,18 +1,16 @@
 header {
-  justify-content: space-between;
-  /* position: -webkit-sticky; */
+  justify-content: center;
+  position: -webkit-sticky;
   background-color: rgb(185, 214, 182);
   position: sticky;
   top: 0;
   padding: 35px;
-  background-image: url('https://vetsez.com/wp-content/uploads/2020/03/AdobeStock_291217289-copy.jpg');
+  background-image: url("https://vetsez.com/wp-content/uploads/2020/03/AdobeStock_291217289-copy.jpg");
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
-  background-position: 0%;
 }
 
-header h1{
+header h1 {
   margin-top: -15px;
 }
 
@@ -24,7 +22,7 @@ header nav {
 header a {
   color: black;
   text-align: center;
-  padding: 8px 12px;
+  padding: 6px 10px;
   font-size: 20px;
   margin: 4px 2px;
   transition: 0.3s;
@@ -33,10 +31,10 @@ header a {
 }
 
 header a:hover {
-  background-color: azure;
-  color: black; 
+  background-color: rgba(0, 0, 0, 0.212);
+  color: azure;
   border-radius: 5px;
-  transition: 0.5s;
+  transition: 0.25s;
   opacity: 1;
   font-style: italic;
 }
@@ -49,22 +47,17 @@ section {
   margin: 45px 245px 83px 245px;
 }
 
-h2 span {
-  text-align: center;
-  border: 3px solid gray;
-  border-style: solid;
-  border-top: 0px;
-  border-left: 0px;
-  grid-area: a;
+h2 {
+  text-align: left;
   padding: 5px;
 }
 
 body {
   /* background-color: rgba(56, 153, 47, 0.473); */
-  background-image: url('https://vetsez.com/wp-content/uploads/2020/03/AdobeStock_291217289-copy.jpg');
+  background-image: url("https://vetsez.com/wp-content/uploads/2020/03/AdobeStock_291217289-copy.jpg");
   height: 100vh;
   background-size: cover;
-  background-repeat: no-repeat;   
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -77,7 +70,7 @@ body {
 
 .portrait {
   border-radius: 75%;
-  width: 27%;
+  width: 20%;
   margin-bottom: 30px;
 }
 
@@ -111,7 +104,9 @@ body {
   font-weight: lighter;
   position: relative;
 }
-
+#education h6 {
+  font-style: italic;
+}
 #contact ul li {
   font-size: 18px;
   display: inline-block;
@@ -119,54 +114,59 @@ body {
   list-style: none;
 }
 
-.LinkedIn-logo {
-  width: 5%;
+#contact a {
+  color: black;
+  text-align: center;
+  padding: 6px 10px;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
-.email-logo {
-  width: 3%
-};
-
-.github-logo {
-  width: 3%
+#contact a:hover {
+  background-color: rgba(0, 0, 0, 0.212);
+  color: azure;
+  border-radius: 5px;
+  transition: 0.25s;
+  opacity: 1;
+  font-style: italic;
 }
+
 
 /* media query for smaller desktop screens */
 
-/* @media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
   header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: relative;
+    padding-bottom: 0;
+    justify-content: center;
+    /* position: relative; */
   }
-  
+
   header h1 {
-      width: 100%;
-      text-align: center;
+    width: 100%;
+    text-align: center;
   }
 
   header nav {
-      margin-top: 20px;
-      width: 100%;
-      justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
   }
 
   header nav a {
-      font-size: 20px;
+    font-size: 20px;
   }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   section {
-      padding: 30px 15px;
+    margin: 25px 145px 63px 145px;
   }
-  
-} */
-
-  
+}
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  
-} 
+}
