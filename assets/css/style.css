@@ -80,18 +80,23 @@ body {
 }
 #primary-project img {
   width: 100%;
+  background-size: cover;
 }
+.techyBlog {
+  height: 100%;
+}
+
+#other-projects {
+  /* position: relative; */
+  text-align: center;
+}
+
 .content {
   font-size: 20px;
 }
 
 .education {
   line-height: 1px;
-}
-
-#other-projects {
-  /* position: relative; */
-  text-align: center;
 }
 
 .other-projects img {
@@ -134,7 +139,6 @@ body {
   font-style: italic;
 }
 
-
 /* media query for smaller desktop screens */
 
 @media screen and (max-width: 980px) {
@@ -163,10 +167,13 @@ body {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
   section {
-    margin: 25px 145px 63px 145px;
+    margin: 50px 10px;
   }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+  section {
+    margin: 50px 10px;
+  }
 }
